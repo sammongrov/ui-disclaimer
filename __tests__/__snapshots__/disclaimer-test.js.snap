@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Disclaimer dispatches onAcceptDisclaimer 1`] = `Array []`;
+
+exports[`Disclaimer renders correctly with disclaimer has accepted property 1`] = `
+<Text
+  accessible={true}
+  allowFontScaling={true}
+  ellipsizeMode="tail"
+  onPress={[Function]}
+>
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit...
+</Text>
+`;
+
+exports[`Disclaimer renders correctly with disclaimer.accepted === false 1`] = `
+<Text
+  accessible={true}
+  allowFontScaling={true}
+  ellipsizeMode="tail"
+  onPress={[Function]}
+>
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit...
+</Text>
+`;
+
+exports[`Disclaimer renders correctly with disclaimer.accepted === true 1`] = `
+<Text
+  accessible={true}
+  allowFontScaling={true}
+  ellipsizeMode="tail"
+  onPress={[Function]}
+>
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit...
+</Text>
+`;
